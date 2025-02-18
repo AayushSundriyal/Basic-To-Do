@@ -1,0 +1,77 @@
+body {
+    background: rgb(22, 22, 22);
+    /* background: #4C7B8B; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border-radius: 15px;
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background: #252525;
+}
+.inputs {
+    display: flex;
+    align-items: center;
+    gap: 10px; /*Adds spacing between input and button */
+}
+
+input {
+    flex: 1; /*Allows input to take available space */
+    min-width: 0; /*Prevents input from overflowing */
+    height: 25px;
+    width: 270px;
+    padding: 9px;
+    border-radius: 5px;
+    /* border: 2px solid#000000; */
+    border: none;
+    background-color: #464544;
+    color: rgb(255, 255, 255);
+    /* background-color: #3B6790; */
+    outline: none;
+    font-size: 19px;
+}
+
+button {
+    width: 60px;
+    height: 43px;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+
+    color: #f4f3e1;
+    border: 1.5px solid black;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}
+
+.text ul {
+    position: relative;
+    background: #464544;
+    color: #ffffff;
+    font-size: 19px;
+    padding: 8px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.text ul i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: rgb(216, 60, 60);
+}
+.text ul i:hover {
+    color: red;
+}
+
+h1 {
+    color: rgb(245, 245, 232);
+}
